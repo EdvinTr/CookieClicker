@@ -35,6 +35,9 @@ public class Main {
             } else if ((Integer.parseInt(splitCookie_count[0]) > 100) && flag) {
                 product1.click();
                 flag = false;
+                System.out.println();
+                System.out.println();
+                System.out.println();
             }
 
         }
