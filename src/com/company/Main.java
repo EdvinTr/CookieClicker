@@ -17,7 +17,6 @@ public class Main {
         int count = 0;
         boolean flag = false;
         for (int i = 0; i < 5000; i++) {
-
             cookie.click();
             WebElement cookie_count = driver.findElement(By.id("cookies"));
             String[] splitCookie_count = cookie_count.getText().split(" ");
@@ -27,19 +26,14 @@ public class Main {
             WebElement product2 = driver.findElement(By.id("product2"));
             WebElement product3 = driver.findElement(By.id("product3"));
 
-
-            if (Integer.parseInt(splitCookie_count[0]) > 50 && (!flag)){
+            if (Integer.parseInt(splitCookie_count[0]) > 50 && (!flag)) {
                 Thread.sleep(10);
                 product0.click();
                 flag = true;
             } else if ((Integer.parseInt(splitCookie_count[0]) > 100) && flag) {
                 product1.click();
                 flag = false;
-                System.out.println();
-                System.out.println();
-                System.out.println();
             }
-
         }
         System.out.println(count);
     }
