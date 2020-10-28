@@ -1,3 +1,4 @@
 # CookieClicker
 
-https://gyazo.com/4be48f9e60531d1d2b789bdf0b7e28e3
+![cookiegif](https://user-images.githubusercontent.com/55061907/97429229-6c7cea00-1917-11eb-98e9-487ca997b4c5.gif)
+
