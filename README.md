@@ -1,4 +1,5 @@
 # CookieClicker
 
-![cookiegif](https://user-images.githubusercontent.com/55061907/97429229-6c7cea00-1917-11eb-98e9-487ca997b4c5.gif)
+![cookieClicker_gif](https://user-images.githubusercontent.com/55061907/97429467-bebe0b00-1917-11eb-8cdc-e62939b7a447.gif)
+
 
